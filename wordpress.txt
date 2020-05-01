@@ -9,8 +9,32 @@ Run the wordpress installation script
 
 How to Install WordPress in 5 Steps:
 
- 1  Download the latest version of WordPress from: WordPress.org
+ 1  Download the latest version of WordPress from: https://wordpress.org/download/
  2  Upload the WordPress software to your web server, using FTP.
  3  Create a MySQL database and user for WordPress.
- 4  Configure WordPress to connect to the newly-created database.
+ 4  Configure WordPress to connect to the newly-created database. Run the installation
  5  Complete the installation and setup your new website!
+ 
+ Database configuration
+ 
+   Database Name   : databaseName
+   User Name       :root
+   Password        :
+   host            :localhost
+   Table Prefix    :wp_
+   
+   By default it will create 12 table 
+
+site configation
+
+   Site Title ->tile of the website
+   Username   ->admin
+   Password   ->admin
+   Your Email ->surya@gmail.com
+   Search Engine Visibility  -> if we checked this check box google will not crowl the site,
+   
+Browsing path   
+   Dashboard url   http://127.0.0.1/wordpress/wp-admin/
+   site visite     http://127.0.0.1/wordpress/
+   login           http://127.0.0.1/wordpress/wp-login.php/
+   
