@@ -1,0 +1,16 @@
+Wordpress installation and configration
+
+wordpress is available for download from wordpress.org and current version is 5.4.1 and 
+we need good webhost or we can install in on local machine fot that we need to install  webserver called xampp server
+Then upload the  wordPress files to webserver,Create mysql database and user.
+
+Configure wordpress to connect database
+Run the wordpress installation script
+
+How to Install WordPress in 5 Steps:
+
+ 1  Download the latest version of WordPress from: WordPress.org
+ 2  Upload the WordPress software to your web server, using FTP.
+ 3  Create a MySQL database and user for WordPress.
+ 4  Configure WordPress to connect to the newly-created database.
+ 5  Complete the installation and setup your new website!
