@@ -38,3 +38,9 @@ Browsing path
    site visite     http://127.0.0.1/wordpress/
    login           http://127.0.0.1/wordpress/wp-login.php/
    
+Theme Install in WordPress on localhost
+     a theme is a collection of templates and stylesheets used to define the appearance and
+     display of a WordPress powered website. 
+     They can be changed, managed, and added from the WordPress admin area under 
+     Appearance » Themes. ... WordPress.org has a large collection of free ones in their Themes Directory.
+     The theme is the design of our whole website while the template is the layout of a single page of your site. 
