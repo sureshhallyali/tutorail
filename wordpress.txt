@@ -44,3 +44,21 @@ Theme Install in WordPress on localhost
      They can be changed, managed, and added from the WordPress admin area under 
      Appearance » Themes. ... WordPress.org has a large collection of free ones in their Themes Directory.
      The theme is the design of our whole website while the template is the layout of a single page of your site. 
+     
+SEO friendly URL configuration in wordpress
+    Permalink Settings
+    	Prefer to use "Post name" because people look at URL and know immediately  what it's about, its keeps URL shot.
+    Creating at new Post
+    	 we can configure this post URL
+    Yoast SEO plugIN there to manage seo
+    Rules
+	keyword must be there in url and it should not be incomplete
+	avoiding "stop words" such as 'a','the','of' and 'for'
+	URL must be short,
+	Avoiding parameter like product number,
+	Avoiding  underscore(_) in URL
+	
+    Media Library management
+      
+  
+  
