@@ -45,6 +45,27 @@ Theme Install in WordPress on localhost
      Appearance » Themes. ... WordPress.org has a large collection of free ones in their Themes Directory.
      The theme is the design of our whole website while the template is the layout of a single page of your site. 
      
+Plugin
+ 	A plugin is a piece of software containing a group of functions that can be added to a WordPress website. 
+	They can extend functionality or add new features to your WordPress websites. 
+	WordPress plugins are written in the PHP programming language and integrate seamlessly with WordPress.
+    
+    For example, we can:
+    	Start an online store with WordPress using the WooCommerce plugin,
+	Create a job board with WordPress using the Job Manager plugin,
+	Build your photography website using the Envira Gallery Plugin,
+	Create a Wiki website using the Knowledge base plugin
+	
+    Plugin installation
+       There are 3 ways to do
+       1. In plugin area   just by clicking and active we can install
+       2. add new-> upload plugin ->browse file or drag file and install
+       3. Directly puting file in plugin folder
+       
+       
+	
+
+     
 SEO friendly URL configuration in wordpress
     Permalink Settings
     	Prefer to use "Post name" because people look at URL and know immediately  what it's about, its keeps URL shot.
@@ -59,6 +80,10 @@ SEO friendly URL configuration in wordpress
 	Avoiding  underscore(_) in URL
 	
     Media Library management
+    	In media library  we upload all media like images,video,Doc,audio etc with well organige with soring option like date       
+	wise and media category wise,
+	TO better organize we can also use "media library folders" plugin
+	
       
   
   
