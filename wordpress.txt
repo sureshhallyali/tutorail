@@ -86,4 +86,5 @@ SEO friendly URL configuration in wordpress
 	
       
   
-  
+  Resource links
+  https://www.youtube.com/watch?v=FVqzKAUsM68
