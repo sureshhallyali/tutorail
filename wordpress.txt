@@ -84,7 +84,48 @@ SEO friendly URL configuration in wordpress
 	wise and media category wise,
 	TO better organize we can also use "media library folders" plugin
 	
-      
-  
+	
+	
+File structure
+	index.php
+		The main template file. It is required in all themes.
+	style.css
+		The main stylesheet. It is required in all themes and contains the information header for your theme.
+	front-page.php
+		The front page template is always used as the site front page if it exists, regardless of what settings on   
+		Admin > Settings > Reading.
+	home.php
+		The home page template is the front page by default. If you do not set WordPress to use a static front page,  		      this template is used to show latest posts.
+	header.php
+		The header template file usually contains your site’s document type, meta information, links to stylesheets 	            and scripts, and other data.
+	singular.php
+		The singular template is used for posts when single.php is not found, or for pages when page.php are not 
+		found. If singular.php is not found, index.php is used.
+	page.php
+		The page template is used when visitors request individual pages, which are a built-in template.
+	category.php
+		The category template is used when visitors request posts by category.
+	search.php
+		The search results template is used to display a visitor’s search results.
+	attachment.php
+		The attachment template is used when viewing a single attachment like an image, pdf, or other media file.
+	image.php
+		The image attachment template is a more specific version of attachment.php and is used when viewing a single 
+		image attachment. If not present, WordPress will use attachment.php instead.
+	404.php
+		The 404 template is used when WordPress cannot find a post, page, or other content that matches the 
+		visitor’s request.
+		
+	style.css
+		The style.css is a stylesheet (CSS) file required for every WordPress theme. It controls the presentation 
+		(visual design and layout) of the website pages.
+
+Using template files
+  	
+		To include the header, use get_header()
+		To include the sidebar, use get_sidebar()
+		To include the footer, use get_footer()
+		To include the search form, use get_search_form()
+		To include custom theme files, use get_template_part()
   Resource links
   https://www.youtube.com/watch?v=FVqzKAUsM68
