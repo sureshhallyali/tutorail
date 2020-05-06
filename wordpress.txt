@@ -91,6 +91,12 @@ File structure
 		The main template file. It is required in all themes.
 	style.css
 		The main stylesheet. It is required in all themes and contains the information header for your theme.
+	page.php
+		The page template is used when visitors request individual pages, which are a built-in template. specific  
+		template specific page,
+	single.php
+		whenerver someone visite a single blog post on your theme  single.php  will be the one that load the page
+		
 	front-page.php
 		The front page template is always used as the site front page if it exists, regardless of what settings on   
 		Admin > Settings > Reading.
@@ -101,8 +107,7 @@ File structure
 	singular.php
 		The singular template is used for posts when single.php is not found, or for pages when page.php are not 
 		found. If singular.php is not found, index.php is used.
-	page.php
-		The page template is used when visitors request individual pages, which are a built-in template.
+	
 	category.php
 		The category template is used when visitors request posts by category.
 	search.php
@@ -127,5 +132,11 @@ Using template files
 		To include the footer, use get_footer()
 		To include the search form, use get_search_form()
 		To include custom theme files, use get_template_part()
+		
+		
+		
   Resource links
   https://www.youtube.com/watch?v=FVqzKAUsM68
+  
+  from scrach design and whole file stricture
+  https://www.youtube.com/user/MrDigitalAu/playlists
